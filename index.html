@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../image/icon/quizLogo.ico" type="x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nova+Square&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="./main.js"  defer></script> 
+</head>
+<header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Questions</a>
+    </nav>
+</header>
+
+<body>
+    <h3 class="heading">CHINGU TRIVIA</h3>
+    <center>
+    <div class="main-container">
+        <div class="question-tag">
+            Question 1/10
+        </div>
+        <h3 id="questionId">Which heading tag should be used once per page?</h3>
+        <div class="button-container">
+                <button type="button" class="btn btn-primary option1 option" value="a"></button>
+                <button type="button" class="btn btn-primary option2 option" value="b"></button>
+                <button type="button" class="btn btn-primary option3 option" value="c"></button>
+                <button type="button" class="btn btn-primary option4 option" value="d"></button>
+            </div>
+        </div>
+        <p class="result"></p>
+        <button style="display: none;" type="button" class="btn btn-primary previous">Previous
+            <br />
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        
+        <button style="display: none;" type="button" class="btn btn-primary next">Next 
+            <br />
+            <i class="fa-solid fa-arrow-right"></i>
+        </button> 
+    </div>
+</center>
+
+    <h3 class="score" style="display: none;"></h3>
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+.question-tag{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#questionId{
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.heading{
+    margin-top: 25px;
+   margin-left: 1.7rem;
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+nav {
+    
+    margin-top: 20px;
+   margin-right: 1.7rem;
+   position: absolute;
+    top: 5px;
+    right: 0;
+
+}
+
+nav a {
+    
+    margin-right: 10px; 
+    text-decoration: none;
+}
+
+.main-container{
+    margin-top: 20px;
+    /* min-width: 350px;
+    max-width: 100%; */
+    min-height: 430px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 7px;
+    margin-right: 1.7rem;
+    margin-left: 1.7rem;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 400px; /* 400px covers all the texts */
+    margin: 10px auto; 
+  }
+
+  .option {
+    width: 47.5%; 
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+    color: white;
+    min-height: 150px;
+    min-width: 100px;
+    background-color: rgb(160, 178, 179);
+  }
+
+  .option:hover {
+    background-color: #362c61;
+  }
+
+  /* For small screen  */
+  @media screen and (max-width: 499px) {
+    .option {
+        width: 100%;
+    }
+}
+
+.result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.next{
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-right: 26px;
+    float: right;
+    border-radius: 4px;
+    background-color: blue;
+} 
+/* 
+background color has been proviveded intentionally (if fontawesome doesnt load due to poor internet) */
+
+.previous{
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 26px;
+    float: left;
+    border-radius: 4px;
+    background-color: blue;
+} 
+
+.score {
+    margin: auto;
+    margin-top: 20vh;
+    border: 3px solid blue;
+    flex-direction: column;
+    justify-items: center;
+    min-width: 40vh;
+    padding: 10%;
+    border: 1px solid rgb(224, 217, 208);
+    border-radius: 11px;
+    margin-right: 1.7rem;
+    margin-left: 1.7rem;
+} 
+
